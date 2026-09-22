@@ -36,8 +36,8 @@ test.describe.serial('Maudau Tests', () => {
     { 
       name: 'Milk test',
       searchQuery: 'молоко', 
-      brand: 'Яготинське', 
-      check: /Яготинське/i 
+      brand: 'Наше Молоко', 
+      check: /Наше Молоко/i 
     }
   ];
 
