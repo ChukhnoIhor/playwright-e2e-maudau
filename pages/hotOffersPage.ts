@@ -10,7 +10,6 @@ export class HotOffersPage {
     'Краса і догляд',
     'Дитячі товари',
     'Зоотовари',
-    'Товари з подарунками',
     'Побутова хімія',
     'Товари для дому',
     'Іграшки та творчість',
@@ -25,7 +24,7 @@ export class HotOffersPage {
   }
 
   async open() {
-    await this.page.goto('/promo/birthday2026'); 
+    await this.page.goto('/promo/alpaca-sale2026'); 
   }
 
   async verifyAllCategories() {

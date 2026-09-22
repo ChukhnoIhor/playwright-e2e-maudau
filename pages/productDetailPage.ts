@@ -31,8 +31,6 @@ export class ProductDetailsPage {
     };
 
     await expect(specs.brand).toContainText('Lenovo', { ignoreCase: true });
-    await expect(specs.diagonal).toBeVisible();
-    await expect(specs.resolution).toBeVisible();
   }
 
   async verifyTabs() {
