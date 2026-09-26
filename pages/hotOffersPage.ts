@@ -24,7 +24,7 @@ export class HotOffersPage {
   }
 
   async open() {
-    await this.page.goto('/promo/alpaca-sale2026'); 
+    await this.page.goto('/promo/gum-sale2026'); 
   }
 
   async verifyAllCategories() {
